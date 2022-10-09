@@ -1,0 +1,361 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lora', sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 0 10px;
+    overflow-y: hidden;
+
+}
+
+div,
+p,
+input,
+button,
+form,
+span,
+a,
+ul,
+li {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+a,
+button,
+input,
+textarea:focus {
+    outline: none;
+}
+
+li a {
+    color: #fff;
+}
+
+.section {
+    background-image: url(/image/1612569385_102-p-shkolnaya-doska-fon-zelenaya-123\ 1.png);
+    max-width: 100%;
+}
+
+.head__logo {
+    font-size: 45px;
+    font-weight: medium italic;
+    color: #fff;
+}
+
+.head__wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px 0;
+}
+
+.menu__list {
+    display: flex;
+    align-items: center;
+}
+
+.menu__item:hover {
+    font-size: 25px;
+    transition: 0.4s ease;
+}
+
+.menu__item {
+    font-size: 24px;
+    color: #fff;
+    font-weight: medium italic;
+    transition: 0.4s ease;
+}
+
+.menu__link {
+    margin: 0 63px;
+}
+
+.main__wrap {
+    text-align: center;
+    color: #fff;
+    padding: 150px 0;
+}
+
+.main {
+    position: relative;
+}
+
+.main__title {
+    font-size: 40px;
+    font-weight: medium italic;
+}
+
+.main__subtitle {
+    font-size: 20px;
+    font-weight: medium italic;
+    margin-top: 34px;
+    color: #DADADA;
+}
+
+.main__btn-wrap {
+    margin-top: 54px;
+}
+
+.main__btn:hover {
+    transition: 0.5s ease;
+    cursor: pointer;
+    background: #d9b800;
+    box-shadow: 15px 10px 40px rgba(190, 160, 0, 0.25);
+}
+
+.main__btn {
+    border: 0;
+    color: #fff;
+    background: #BEA000;
+    border-radius: 50px;
+    width: 300px;
+    height: 100px;
+    font-size: 30px;
+    transition: 0.5s ease;
+    margin-top: 54px;
+}
+
+.main__arrow-wrap {
+    padding: 98px 0 0 0;
+}
+
+.day__wrap {
+    padding: 74px 0 30px 0;
+    position: relative;
+}
+
+.day__image-wrap {
+    overflow-y: hidden;
+}
+
+.day__title {
+    font-size: 40px;
+    font-weight: bold italic;
+}
+
+.day__subtitle {
+    font-size: 25px;
+    font-weight: medium italic;
+}
+
+.day__text-wrap {
+    text-align: center;
+}
+
+.day__subtitle-wrap {
+    margin: 37px 0 60px 0;
+}
+
+.img-1 {
+    position: absolute;
+    top: 895px;
+    left: -178px;
+    overflow-x: hidden;
+}
+
+.img-2 {
+    position: absolute;
+    top: 895px;
+    right: -178px;
+    overflow-x: hidden;
+}
+
+.school__wrap {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.school__aside {
+    font-size: 15px;
+}
+
+.school__title {
+    font-size: 40px;
+    font-weight: medium italic;
+}
+
+.school__title-wrap {
+    margin: 10px 0 30px 0;
+}
+
+.school__image {
+    margin-top: 55px;
+}
+
+.teach__block {
+    display: flex;
+    align-items: center;
+}
+
+.teach__text-wrap {
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.teach__aside-title-wrap {
+    text-align: center;
+}
+
+.teach__wrap {
+    padding: 88px 0;
+}
+
+.teach__block {
+    margin-top: 93px;
+}
+
+.teach__block-wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.teach__block-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 67px;
+}
+
+.teach__text-wrap-3 {
+    margin-left: 57px;
+}
+
+.pup__wrap {
+    text-align: center;
+}
+
+.pup__title {
+    font-size: 40px;
+    font-weight: medium;
+}
+
+.pup__subtitle {
+    font-size: 20px;
+    font-weight: medium;
+    margin-top: 20px;
+}
+
+.pupils__wrap {
+    text-align: center;
+}
+
+.pup__image-wrap {
+    margin: 90px 0;
+}
+
+.popup {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.466);
+    opacity: 0;
+    visibility: hidden;
+}
+
+.popup:target {
+    opacity: 1;
+    visibility: visible;
+}
+.popup-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 10px;
+    min-height: 100%;
+}
+.popup__content {
+    background: #fff;
+    max-width: 800px;
+    color: #000;
+    padding: 30px;
+    position: relative;
+    text-align: center;
+}
+.popup-close {
+    text-decoration: none;
+    color: rgb(233, 81, 81);
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.popup__title {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.pop__subtitle {
+    font-size: 20px;
+    margin: 20px 0 40px 0;
+}
+
+.footer {
+    background-image: url(/image/Group\ 19.png);
+}
+
+.foot__logo {
+    font-size: 40px;
+}
+
+.foot__wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #fff;
+    padding: 30px 0;
+}
+
+.slider_wrapper {
+    display: flex;
+    text-align: center;
+    flex-wrap: nowrap;
+    position: relative;
+    overflow: hidden;
+    justify-content: space-between;
+    align-items: center;
+    height: 740px;
+    width: 1405px;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 50px;
+  }
+  
+  .myslide {
+    /*display: none;*/
+    flex-wrap: nowrap;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 50px;
+    right: 50px;
+    justify-content: space-between;
+    align-items: center;
+    transform: translateY(-200%);
+    transition: transform 0.5s;
+  }
+  
+  .myslide__active {
+    display: flex;
+    transform: translateY(0);
+  }
+  
+  .myslide img {
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+  
+  .slider_wrapper a {
+    cursor: pointer;
+  }
+  
+  .image-1 {
+    height: 740px;
+  }
